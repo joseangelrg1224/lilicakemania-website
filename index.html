@@ -8,11 +8,34 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 
+        <!-- Additional CSS must be placed after Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+        <link rel="stylesheet" href="css/style.css" />
+
     <title>lilicakemania</title>
     </head>
 
     <body>
-        <h1>This is a Header</h1>
+        <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand mr-3" href="#"><h4>LILICAKEMANIA</h4></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#liliNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="liliNavbar">
+                    <ul class="navbar-nav mx-auto text-center">
+                        <li class="nav-item active"><a class="nav-link" href="#">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#history.html">HISTORY</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#menu.html">MENU</a></li>
+                    </ul>
+                    <span class="navbar-text ml-3 d-flex justify-content-center">
+                        <a class="btn btn-sm btn-outline-secondary" role="button" href="https://wa.me/message/FKWSNJMBCA6AP1" target="_blank">ORDER NOW</a>
+                    </span>
+                </div>
+            </div>
+        </nav>
     </body>
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>

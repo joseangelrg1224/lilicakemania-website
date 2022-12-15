@@ -19,23 +19,139 @@
 
     <body>
         <nav class="navbar navbar-expand-sm navbar-light sticky-top">
-            <div class="container-fluid">
-                <a class="navbar-brand mr-3" href="#"><h4>LILICAKEMANIA</h4></a>
+            <div class="container-fluid" id="navbar-content">
+                <a class="navbar-brand mr-3" href="#"><h5>LILICAKEMANIA</h5></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#liliNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="liliNavbar">
-                    <ul class="navbar-nav mx-auto text-center">
-                        <li class="nav-item active"><a class="nav-link" href="#">HOME</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#history.html">HISTORY</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#menu.html">MENU</a></li>
-                    </ul>
-                    <span class="navbar-text ml-3 d-flex justify-content-center">
-                        <a class="btn btn-sm btn-outline-secondary" role="button" href="https://wa.me/message/FKWSNJMBCA6AP1" target="_blank">ORDER NOW</a>
-                    </span>
+                        <ul class="navbar-nav mx-auto text-center">
+                            <li class="nav-item active"><a class="nav-link" href="#">INICIO</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#history.html">HISTORIA</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#menu.html">MENU</a></li>
+                        </ul>
+                        <span class="navbar-text ml-3 d-flex justify-content-center">
+                            <a class="btn btn-sm btn-outline-secondary" role="button" href="https://wa.me/message/FKWSNJMBCA6AP1" target="_blank">ORDER NOW</a>
+                        </span>
+                    </div>
                 </div>
             </div>
         </nav>
+
+
+        <div class="container">
+            <div class="row row-content">
+                <div class="col-md-8 mx-auto">
+                    <div id="homeCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#homeCarousel" data-slide-to="1"></li>
+                            <li data-target="#homeCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="img/torta5.jpeg" alt="torta decorada 5">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/torta6.jpeg" alt="torta decorada 6">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/torta7.jpeg" alt="torta decorada 7">
+                            </div>
+                        <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="sr-only">Anterior</span>
+                        </a>
+                        <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="sr-only">Siguiente</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <section>
+        <div class="container">
+            <div class="row row-content" id="text1">
+                <div class="col-sm-4">
+                    <h3>BIENVENIDO</h3>
+                    <h4>Vision</h4>
+                    <p>Convertirnos en una marca líder y confiable para nuestros consumidores. Logrando ser el proveedor preferido de nuestros clientes por la calidad, variedad de nuestros productos y sobretodo el buen servicio.</p>
+                </div>
+            </div>
+            <div class="row row-content" id="text2">
+                <div class="col-sm-4">
+                    <h4>valores</h4>
+                    <ul>
+                        <li>Respeto</li>
+                        <li>Amor</li>
+                        <li>buen servicio al cliente</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Perseverancia</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row row-content" id="text3">
+                <div class="col-sm-4">
+                    <h4>mision</h4>
+                    <p>Ser una empresa líder en la industria de Panadería, pastelería y repostería. Por medio de un excelente servicio. Atender las necesidades de nuestros clientes con productos de más lta calidad y brindándoles una experiencia irrepetible.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container" id="#cards">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card mx-auto" style="width: 18rem;">
+                <img src="img/miloja.jpg" class="card-img-top" alt="miloja">
+                <div class="card-body">
+                    <h5 class="card-title">MENU</h5>
+                    <a href="menu.html" class="btn btn-outline-primary">Ir al menu</a>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="card mx-auto" style="width: 18rem;">
+                <img src="img/miloja.jpg" class="card-img-top" alt="pina">
+                <div class="card-body">
+                    <h5 class="card-title">HISTORIA</h5>
+                    <a href="history.html" class="btn btn-outline-primary">Conoce nuestra historia</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h3>no olvides seguirnos</h3>
+        <p>3 instagram posts</p>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class=" col-4 col-sm-5">
+                    <h5>REDES SOCIALES</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/lilicakemania/" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/lilicakemania" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-whatsapp" href="https://wa.me/message/FKWSNJMBCA6AP1" target="_blank"><i class="fa fa-whatsapp"></i></a>
+                </div>
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ol class="list-unstyled text-center">
+                        <li><a href="#">INICIO</a></li>
+                        <li><a href="history.html">HISTORIA</a></li>
+                        <li><a href="menu.html">MENU</a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     </body>
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>

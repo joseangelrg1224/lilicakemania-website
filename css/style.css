@@ -1,5 +1,5 @@
 body{
-    font-family:monospace;
+    font-family:Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
@@ -8,7 +8,7 @@ a, a:hover {
     text-decoration: none;
 }
 
-h4, h2{
+h4,.col-12 h2, footer h5, nav h5{
     color: #9a65ac;
 }
 
@@ -22,7 +22,6 @@ ul {
 }
 
 .navbar {
-    font-family: monospace;
     padding-top: 0;
     padding-bottom: 0;
     margin-bottom: 0;
@@ -54,4 +53,13 @@ ul {
 
 .card{
     margin: 10px;
+}
+
+div h2{
+    margin: 70px ;
+    padding: 10px;
+}
+
+.col-md-4 p{
+    padding: 10px 0px;
 }

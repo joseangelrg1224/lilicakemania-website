@@ -8,12 +8,7 @@ a, a:hover {
     text-decoration: none;
 }
 
-
-h4 {
-    color: #fd9fa2;
-}
-
-h3{
+h4, h2{
     color: #9a65ac;
 }
 

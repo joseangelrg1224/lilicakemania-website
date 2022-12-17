@@ -1,5 +1,5 @@
 body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family:monospace;
     text-align: center;
 }
 
@@ -8,18 +8,13 @@ a, a:hover {
     text-decoration: none;
 }
 
-h5 {
-    font-family: monospace;
-}
 
 h4 {
     color: #fd9fa2;
-    font-family: monospace;
 }
 
 h3{
     color: #9a65ac;
-    font-family: monospace;
 }
 
 ul {
@@ -31,8 +26,11 @@ ul {
     background-color:rgba(255, 255, 255, 1);
 }
 
-nav {
+.navbar {
     font-family: monospace;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .carousel  {
@@ -49,5 +47,16 @@ nav {
 #text1, #text2, #text3{
     display: flex;
     justify-content: center;
-    padding: 35px;
+    padding: 45px;
+}
+
+.img-thumbnail{
+    height: 450px ;
+    width: 400px;
+    padding: 15px 0px;
+    border: none;
+}
+
+.card{
+    margin: 10px;
 }
